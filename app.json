@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "SoundShades",
+    "slug": "soundshades",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": { "supportsTablet": true },
+    "android": { "predictiveBackGestureEnabled": false },
+    "web": { "bundler": "metro", "output": "single" },
+    "plugins": [["expo-audio", {
+      "microphonePermission": false,
+      "recordAudioAndroid": false,
+      "enableBackgroundPlayback": false,
+      "enableBackgroundRecording": false
+    }]]
+  }
+}
